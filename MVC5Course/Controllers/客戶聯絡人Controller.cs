@@ -10,6 +10,7 @@ using MVC5Course.Models;
 
 namespace MVC5Course.Controllers
 {
+    [Authorize]
     public class 客戶聯絡人Controller : Controller
     {
         private CustDB db = new CustDB();
